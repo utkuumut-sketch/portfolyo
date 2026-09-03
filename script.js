@@ -9,14 +9,14 @@ const translations = {
     heroEyebrow: "3D ARTIST · ANIMATOR · WEB DESIGNER",
     heroTitle: "Dijital dünyalar için<br />görsel deneyimler.",
     heroDescription:
-      "Oyun projeleri için optimize 3D varlıklar ve akıcı animasyonlar üretiyor, modern web deneyimleri tasarlıyorum.",
+      "Oyun projeleri için optimize 3D Assetler ve akıcı animasyonlar üretiyor, modern web siteleri tasarlıyorum.",
     viewWork: "İşlerimi Gör",
     getInTouch: "İletişime Geç",
-    availability: "Freelance ve ortak projelere açık",
+    availability: "Freelance ve ortak projelere açığım",
     aboutLabel: "HAKKIMDA",
     aboutTitle: "Fikirleri, oyun dünyasına uygun görsel üretimlere dönüştürüyorum.",
     aboutText:
-      "Oyunlar için 3D modelleme ve animasyon tarafında üretim yapıyorum. Maya ve Unreal Engine merkezli iş akışıyla oyun projelerine optimize varlıklar ve akıcı animasyonlar hazırlıyorum. Ayrıca modern web tasarımı da yapıyorum.",
+      "Oyunlar için 3D modelleme ve animasyon tarafında üretim yapıyorum. Ağırlık olarak Maya ve Unreal Engine oyun projelerine optimize Assetler ve akıcı animasyonlar hazırlıyorum. Ayrıca modern web tasarımı da yapıyorum.",
     collaborationNote:
       "Freelance ve proje bazlı işlerin yanı sıra ortak proje tekliflerine açığım. Staj veya tam zamanlı iş kabul etmiyorum.",
     toolsLabel: "ARAÇLAR",
@@ -27,9 +27,9 @@ const translations = {
     gameLabel: "Oyun",
     releasedLabel: "Yayınlandı",
     tbaLabel: "Duyurulacak",
-    blindDescription: "Animasyon projesi için oyun odaklı 3D varlık üretimi.",
+    blindDescription: "Animasyon için oyun odaklı 3D Assetler Üretiyorum.",
     solastagiaGameDescription:
-      "Oyunun 3D model, animasyon, efekt ve tasarım üretimlerinde görev alıyorum.",
+      "Oyunun 3D model, animasyon, efekt ve tasarım üretimlerinde ve Kodlama işlerini hallediyorum.",
     solastagiaAnimationDescription:
       "Animasyon projesinde ağırlıklı olarak 3D modeller ve efektler üzerine çalışıyorum.",
     supportLabel: "DESTEK OL",
@@ -42,7 +42,7 @@ const translations = {
     contactTitle: "Birlikte bir şey üretelim.",
     contactDescription:
       "Ortak bir proje fikrin varsa e-posta veya Instagram üzerinden ulaşabilirsin.",
-    domainNote: "Alan adımı henüz bağlamadım; ilerleyen zamanda bağlayacağım.",
+    domainNote: "Alan adını henüz bağlamadım bir ara unutmaz yada üşenmezisem bağlayacağım.",
     emailLabel: "E-posta",
     backToTop: "Yukarı dön",
   },
