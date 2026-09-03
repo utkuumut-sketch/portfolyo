@@ -4,20 +4,21 @@ const translations = {
     navAbout: "Hakkımda",
     navTools: "Araçlar",
     navWork: "İşler",
+    navSupport: "Destek",
     navContact: "İletişim",
     heroEyebrow: "3D ARTIST · ANIMATOR · WEB DESIGNER",
     heroTitle: "Dijital dünyalar için<br />görsel deneyimler.",
     heroDescription:
-      "Oyun projeleri için optimize 3D varlıklar ve akıcı animasyonlar üretiyor, modern web siteleri tasarlıyorum.",
+      "Oyun projeleri için optimize 3D varlıklar ve akıcı animasyonlar üretiyor, modern web deneyimleri tasarlıyorum.",
     viewWork: "İşlerimi Gör",
     getInTouch: "İletişime Geç",
-    availability: "Freelance ve ortak projelere açığım",
+    availability: "Freelance ve ortak projelere açık",
     aboutLabel: "HAKKIMDA",
     aboutTitle: "Fikirleri, oyun dünyasına uygun görsel üretimlere dönüştürüyorum.",
     aboutText:
-      "Oyunlar için 3D modelleme ve animasyon tarafında üretim yapıyorum. Ağırlıklı olarak Maya ve Unreal Engine unity oyun projelerine optimize varlıklar ve akıcı animasyonlar hazırlıyorum. Ayrıca modern web tasarımı da yapıyorum.",
+      "Oyunlar için 3D modelleme ve animasyon tarafında üretim yapıyorum. Maya ve Unreal Engine merkezli iş akışıyla oyun projelerine optimize varlıklar ve akıcı animasyonlar hazırlıyorum. Ayrıca modern web tasarımı da yapıyorum.",
     collaborationNote:
-      "Freelance ve proje bazlı işlerin yanı sıra ortak proje tekliflerine açığım. Staj veya tam zamanlı iş kabul edemiyorum.",
+      "Freelance ve proje bazlı işlerin yanı sıra ortak proje tekliflerine açığım. Staj veya tam zamanlı iş kabul etmiyorum.",
     toolsLabel: "ARAÇLAR",
     toolsTitle: "Üretim sürecimde kullandığım araçlar.",
     workLabel: "SEÇİLİ İŞLER",
@@ -28,14 +29,20 @@ const translations = {
     tbaLabel: "Duyurulacak",
     blindDescription: "Animasyon projesi için oyun odaklı 3D varlık üretimi.",
     solastagiaGameDescription:
-      "Oyunun 3D model, animasyon, efekt ve tasarım üretimlerinde ve mekanik kodlamalarını hallediyorum.",
+      "Oyunun 3D model, animasyon, efekt ve tasarım üretimlerinde görev alıyorum.",
     solastagiaAnimationDescription:
       "Animasyon projesinde ağırlıklı olarak 3D modeller ve efektler üzerine çalışıyorum.",
+    supportLabel: "DESTEK OL",
+    supportTitle: "Üretimlerime katkıda bulun.",
+    supportDescription:
+      "Oyun, 3D modelleme ve animasyon çalışmalarımı Kreosus veya Patreon üzerinden destekleyebilirsin.",
+    kreosusButton: "Kreosus üzerinden destek ol",
+    patreonButton: "Patreon üzerinden destek ol",
     contactLabel: "İLETİŞİM",
-    contactTitle: "En geç 24 Saat içinde geri dönerim",
+    contactTitle: "Birlikte bir şey üretelim.",
     contactDescription:
       "Ortak bir proje fikrin varsa e-posta veya Instagram üzerinden ulaşabilirsin.",
-    domainNote: "Alan adımı henüz bağlamadım unutmazsam bir ara bağlayacagım",
+    domainNote: "Alan adımı henüz bağlamadım; ilerleyen zamanda bağlayacağım.",
     emailLabel: "E-posta",
     backToTop: "Yukarı dön",
   },
@@ -44,6 +51,7 @@ const translations = {
     navAbout: "About",
     navTools: "Tools",
     navWork: "Work",
+    navSupport: "Support",
     navContact: "Contact",
     heroEyebrow: "3D ARTIST · ANIMATOR · WEB DESIGNER",
     heroTitle: "Visual experiences<br />for digital worlds.",
@@ -71,6 +79,12 @@ const translations = {
       "I contribute to the game's 3D modeling, animation, effects, and design production.",
     solastagiaAnimationDescription:
       "I work primarily on 3D models and effects for the animation project.",
+    supportLabel: "SUPPORT MY WORK",
+    supportTitle: "Help support what I create.",
+    supportDescription:
+      "You can support my game, 3D modeling, and animation work through Kreosus or Patreon.",
+    kreosusButton: "Support me on Kreosus",
+    patreonButton: "Support me on Patreon",
     contactLabel: "CONTACT",
     contactTitle: "Let's create something together.",
     contactDescription:

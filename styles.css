@@ -473,6 +473,100 @@ h2 {
   font-size: 0.68rem;
 }
 
+.support {
+  padding: 110px 0;
+  border-top: 1px solid var(--line);
+}
+
+.support > p:not(.eyebrow) {
+  max-width: 600px;
+  margin: 26px 0 38px;
+  color: var(--muted);
+  font-size: 1.06rem;
+}
+
+.support-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.support-card {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 18px;
+  align-items: center;
+  min-height: 142px;
+  padding: 24px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+}
+
+.support-card:hover,
+.support-card:focus-visible {
+  transform: translateY(-3px);
+  background: var(--surface-light);
+}
+
+.support-card-kreosus:hover,
+.support-card-kreosus:focus-visible {
+  border-color: #e61a58;
+}
+
+.support-card-patreon:hover,
+.support-card-patreon:focus-visible {
+  border-color: #f0f0ed;
+}
+
+.support-logo {
+  display: grid;
+  width: 54px;
+  aspect-ratio: 1;
+  place-items: center;
+  overflow: hidden;
+  border: 1px solid #343834;
+  border-radius: 15px;
+  background: #0d0f0d;
+}
+
+.support-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.support-card-kreosus .support-logo img {
+  width: 72%;
+  height: 72%;
+}
+
+.support-card-copy small,
+.support-card-copy strong {
+  display: block;
+}
+
+.support-card-copy small {
+  margin-bottom: 5px;
+  color: var(--muted);
+  font-size: 0.63rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+.support-card-copy strong {
+  font-size: 0.96rem;
+  font-weight: 500;
+}
+
+.support-arrow {
+  align-self: start;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
 .contact {
   padding: 120px 0 100px;
   border-top: 1px solid var(--line);
@@ -674,6 +768,14 @@ footer > a:last-child {
 
   .contact {
     padding-block: 76px;
+  }
+
+  .support {
+    padding-block: 76px;
+  }
+
+  .support-links {
+    grid-template-columns: 1fr;
   }
 
   .contact-links a {
