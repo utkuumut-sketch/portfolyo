@@ -351,7 +351,8 @@ h2 {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-  min-height: 180px;
+  min-height: 0;
+  aspect-ratio: 16 / 9;
   padding: 22px;
   overflow: hidden;
   border-bottom: 1px solid var(--line);
@@ -385,17 +386,20 @@ h2 {
   letter-spacing: 0.16em;
 }
 
-.project-visual-blind {
+.project-visual-image {
   padding: 0;
+}
+
+.project-visual-blind {
   background: #2b241e;
   color: #161816;
 }
 
-.project-visual-blind::after {
+.project-visual-image::after {
   display: none;
 }
 
-.project-visual-blind img {
+.project-visual-image img {
   position: absolute;
   inset: 0;
   width: 100%;
@@ -404,7 +408,7 @@ h2 {
   object-position: center;
 }
 
-.project-visual-blind .project-number {
+.project-visual-image .project-number {
   position: absolute;
   right: 14px;
   bottom: 14px;
@@ -422,8 +426,28 @@ h2 {
 }
 
 .project-visual-animation {
-  background: linear-gradient(145deg, #2b2d2a, #181a18);
-  color: #d6d9d0;
+  background: #eeefec;
+  color: #242724;
+}
+
+.project-card-game {
+  background: linear-gradient(180deg, rgba(62, 100, 52, 0.08), transparent 62%), var(--surface);
+}
+
+.project-card-game:hover {
+  border-color: #587d4a;
+}
+
+.project-card-animation {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.055), transparent 62%), var(--surface);
+}
+
+.project-card-animation:hover {
+  border-color: #c9cbc6;
+}
+
+.project-card-animation .project-meta span:last-child {
+  color: #e6e7e2;
 }
 
 .project-card-body {
